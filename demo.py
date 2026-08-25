@@ -1,3 +1,4 @@
+#class practice  
 age=17
 result=None
 name="Rahul"
@@ -26,3 +27,16 @@ print(type(b))
 print(type(c))
 print(type(d))
 print(type(e))
+a=10
+b=3
+print(a/b)
+print(a//b)
+a=10
+b=3
+
+a="rashi"
+b=18
+print(a*b)  # This will raise an error because you cannot add a string and an integer directly
+a=2
+b=-2
+print(a**b)

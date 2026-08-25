@@ -14,3 +14,15 @@ print(type(age))
 print(type(age_float))
 print(type(age_string))
 print(type(age_boolean))
+
+a=10
+b=10.3
+c="10"
+d=True
+e=None
+
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))

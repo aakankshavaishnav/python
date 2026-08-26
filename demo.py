@@ -40,3 +40,7 @@ print(a*b)  # This will raise an error because you cannot add a string and an in
 a=2
 b=-2
 print(a**b)
+
+a=10
+b=3
+print(a-b)

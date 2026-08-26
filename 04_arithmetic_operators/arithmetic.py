@@ -46,3 +46,35 @@ a=10.5
 b=2
 print(a%b)
 
+a=10
+b=12
+print(a%b)
+a=True
+b=True
+print(a+2)
+
+a=10
+b=3
+print(a**b)
+
+print(10 + 5)
+print(10 - 5)
+print(10 * 5)
+print(10 / 5)
+print(10 // 3)
+print(10 % 3)
+print(2 ** 4)
+print(10 + 5)
+print(10 - 5)
+print(10 * 5)
+print(10 / 5)
+print(10 // 3)
+print(10 % 3)
+print(2 ** 4)
+print(10 + 5 * 2)
+print((10 + 5) * 2)
+print(20 / 5 * 2)
+print(20 // 3 * 2)
+print(20 - 5 + 2)
+print("Python" + "Programming")
+print("Python" * 3)

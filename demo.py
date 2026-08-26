@@ -44,3 +44,23 @@ print(a**b)
 a=10
 b=3
 print(a-b)
+a=10
+b=3
+print(a+b)
+
+#string slicing
+
+a="python"
+print(a[0])
+print(a[:3])
+print(a[2:5])
+print(a[:])
+a="rashiviahsnav"
+print(a[2:4])
+print(a[0])
+print(a[-4])
+print(a[::2])
+b="aakanksha"
+print(b[::2])
+print(b[-1:0:-1])  # There is a typo here, it should be 'print' instead of 'pritn'
+

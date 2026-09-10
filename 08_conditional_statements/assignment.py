@@ -128,4 +128,13 @@ number=int(input("enter your number"))
 if number<10 or number>100 :
     print("special")
 else:print("not special")
-#
+
+
+#CLASS CALCULATION
+
+operation=int(input("enter the operation you want to perform: 1.addition 2.substraction 3.multiplication 4.division"))
+
+if operation ==1 or operation==2 or operation==3 or operation==4:
+    first_number=int(input("enter your number: "))
+    second_numbe=int(input("enter your number: "))
+    

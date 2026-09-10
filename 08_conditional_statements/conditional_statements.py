@@ -1,4 +1,4 @@
-# Result=30
+ # Result=30
 # if Result>=33 :
 #     print("You are pass")
 # else:   
@@ -54,39 +54,64 @@
 #     print("succesfully know")
 # else:print("not error")
  #class work
-number= int(input("enter your number: "))
+# number= int(input("enter your number: "))
 
-a=int(input("Enter first number: "))
-b=int(input("Enter second number: "))
-c=int(input("enter the operation you want to perform: "))
-if c==1:
-    print(f"Addition of {a} and {b} is {a+b}")
-elif c==2:
-    print(f"Subtraction of {a} and {b} is {a-b}")
-elif c==3:
-    print(f"Multiplication of {a} and {b} is {a*b}")
-elif c==4:
-    print(f"Division of {a} and {b} is {a/b}")
-elif c==5:
-    print(f"floor division of {a} and {b} is {a//b}")
+# a=int(input("Enter first number: "))
+# b=int(input("Enter second number: "))
+# c=int(input("enter the operation you want to perform: "))
+# if c==1:
+#     print(f"Addition of {a} and {b} is {a+b}")
+# elif c==2:
+#     print(f"Subtraction of {a} and {b} is {a-b}")
+# elif c==3:
+#     print(f"Multiplication of {a} and {b} is {a*b}")
+# elif c==4:
+#     print(f"Division of {a} and {b} is {a/b}")
+# elif c==5:
+#     print(f"floor division of {a} and {b} is {a//b}")
 
 
-    #####
-    a, b = map(int, input("Enter two numbers: ").split())
+#     #####
+#     a, b = map(int, input("Enter two numbers: ").split())
 
-operator = input("Enter operation (+, -, *, /): ")
+# operator = input("Enter operation (+, -, *, /): ")
 
-if operator == "+":
-    print(a + b)
+# if operator == "+":
+#     print(a + b)
 
-elif operator == "-":
-    print(a - b)
+# elif operator == "-":
+#     print(a - b)
 
-elif operator == "*":
-    print(a * b)
+# elif operator == "*":
+#     print(a * b)
 
-elif operator == "/":
-    print(a / b)
+# elif operator == "/":
+#     print(a / b)
 
-else:
-    print("Invalid operation")
+# else:
+#     print("Invalid operation")
+
+
+# has_id=input("enter if he has id(yes/no): ").strip().lower()
+# if has_id=="no":
+#     has_id=False
+# elif has_id=="yes":
+#      has_if=True
+# else:print("try again")
+
+# if has_id :
+#      print("welcome")
+# else:print("go back")
+
+
+has_id=input("enter your has_id (yes/no): ").strip().lower()
+if has_id=="yes":
+     has_id=True
+     print("welcome")
+elif has_id=="no":
+     has_id=False
+     print("bring id")
+     
+else:("invalid") 
+
+

@@ -1,3 +1,16 @@
+# Take a string containing letters, digits, spaces, and special characters.
+
+# Using a for loop:
+
+# Count uppercase letters.
+# Count lowercase letters.
+# Count digits.
+# Count spaces.
+# Count special characters.
+# Print which category has the highest count.
+# If two or more categories have the same highest count, print "Tie".
+
+
 
 text = input("Enter a string: ")
 

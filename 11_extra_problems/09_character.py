@@ -25,4 +25,10 @@ for key,value in enumerate(strings):
         if value.lower() in vowels:
             type="vowel"
 
+print()
+
+
+
+
+
 

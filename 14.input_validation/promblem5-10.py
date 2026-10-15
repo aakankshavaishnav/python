@@ -1,4 +1,4 @@
-
+ 
 # Q6. Temperature Range
 
 temperature = float(input("Enter temperature: "))
